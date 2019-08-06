@@ -1289,6 +1289,11 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.npm.taobao.org/boolbase/download/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
+bootstrap@4.3.1:
+  version "4.3.1"
+  resolved "https://registry.npm.taobao.org/bootstrap/download/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
+  integrity sha1-KAyo9hBQTZnXtrS/xLaM7GAXBKw=
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.npm.taobao.org/brace-expansion/download/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
@@ -3680,6 +3685,11 @@ isstream@~0.1.2:
   resolved "https://registry.npm.taobao.org/isstream/download/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
+jquery@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.npm.taobao.org/jquery/download/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
+  integrity sha1-cU8fjZ3eS9+lV2S6N+8hRjDYDvI=
+
 js-base64@^2.1.8:
   version "2.5.1"
   resolved "https://registry.npm.taobao.org/js-base64/download/js-base64-2.5.1.tgz#1efa39ef2c5f7980bb1784ade4a8af2de3291121"
@@ -4843,6 +4853,11 @@ pnp-webpack-plugin@^1.4.3:
   integrity sha1-YqHNMGj0bVZLszxW6yUOTVhmdus=
   dependencies:
     ts-pnp "^1.1.2"
+
+popper.js@^1.15.0:
+  version "1.15.0"
+  resolved "https://registry.npm.taobao.org/popper.js/download/popper.js-1.15.0.tgz#5560b99bbad7647e9faa475c6b8056621f5a4ff2"
+  integrity sha1-VWC5m7rXZH6fqkdca4BWYh9aT/I=
 
 portfinder@^1.0.20:
   version "1.0.21"
