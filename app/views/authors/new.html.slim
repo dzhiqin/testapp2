@@ -1,0 +1,7 @@
+.author-edit-page
+  .author-form
+    = simple_form_for @author do |f|
+      = f.input :name, label: 'name', placeholder: "please input name"
+      = f.input :mobile, label: 'mobile', placeholder: 'please input mobile'
+      = f.input :avatar, label: 'avatar'
+      = f.submit 'Save', class:"btn btn-primary"

@@ -1,0 +1,21 @@
+.author-index-page
+  .author-list
+    - if @authors.empty?
+      | no any authors!
+    - else
+      - @authors.each do |author|
+        .author-list-item
+          - if author.avatar.attached?
+            .author-list-item-avatar
+              = image_tag author.avatar
+          .author-list-item-name
+            | name:
+            = author.name
+          .author-list-item-mobile
+            | mobile:
+            = author.mobile
+          .author-list-item-action
+            = link_to 'edit', edit_author_path(author)
+
+  .author-actions
+    = link_to 'create', new_author_path

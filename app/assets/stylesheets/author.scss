@@ -1,0 +1,29 @@
+// Place all the styles related to the author controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.author-new-page,
+.author-edit-page {
+  .author-form {
+    width: 300px;
+  }
+}
+
+.author-index-page {
+  .author-list {
+    &-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      
+      &-avatar {
+        width: 60px;
+        height: 60px;
+        > img {
+          width: 60px;
+          height: 60px;
+        }
+      }
+    }
+  }
+}
